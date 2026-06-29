@@ -1,0 +1,63 @@
+<svg width="700" height="320" viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="700" height="320" rx="12" fill="#1A1A1A"/>
+  <text x="24" y="28" fill="#F0F0F0" font-size="13" font-weight="700">Архитектура приложения FitPulse</text>
+
+  <!-- Presentation layer -->
+  <rect x="24" y="50" width="652" height="52" rx="8" fill="#C8FF0010" stroke="#C8FF00" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="40" y="68" fill="#C8FF00" font-size="10" font-weight="700" letter-spacing="1">PRESENTATION LAYER</text>
+  <text x="40" y="84" fill="#888" font-size="9">HomeScreen · WorkoutsScreen · WorkoutDetailScreen · ProgressScreen · ProfileScreen</text>
+  <text x="550" y="84" fill="#C8FF00" font-size="9" font-weight="600">React Native / Expo</text>
+
+  <!-- Navigation -->
+  <rect x="24" y="118" width="200" height="52" rx="8" fill="#4D9FFF10" stroke="#4D9FFF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="40" y="136" fill="#4D9FFF" font-size="10" font-weight="700">NAVIGATION</text>
+  <text x="40" y="150" fill="#888" font-size="9">React Navigation 6</text>
+  <text x="40" y="162" fill="#888" font-size="9">Stack + Bottom Tabs</text>
+
+  <!-- Components -->
+  <rect x="240" y="118" width="200" height="52" rx="8" fill="#B44DFF10" stroke="#B44DFF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="256" y="136" fill="#B44DFF" font-size="10" font-weight="700">COMPONENTS</text>
+  <text x="256" y="150" fill="#888" font-size="9">RingProgress (SVG)</text>
+  <text x="256" y="162" fill="#888" font-size="9">WorkoutCard</text>
+
+  <!-- State / Logic -->
+  <rect x="456" y="118" width="220" height="52" rx="8" fill="#FF8C4D10" stroke="#FF8C4D" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="472" y="136" fill="#FF8C4D" font-size="10" font-weight="700">STATE / LOGIC</text>
+  <text x="472" y="150" fill="#888" font-size="9">React Hooks (useState, useEffect)</text>
+  <text x="472" y="162" fill="#888" font-size="9">Timer, Progress, Filters</text>
+
+  <!-- arrows down -->
+  <line x1="124" y1="170" x2="124" y2="196" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="340" y1="170" x2="340" y2="196" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="566" y1="170" x2="566" y2="196" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Data layer -->
+  <rect x="24" y="196" width="200" height="52" rx="8" fill="#C8FF0010" stroke="#C8FF00" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="40" y="214" fill="#C8FF00" font-size="10" font-weight="700">DATA LAYER</text>
+  <text x="40" y="228" fill="#888" font-size="9">data/data.js</text>
+  <text x="40" y="240" fill="#888" font-size="9">workoutPlans, weeklyData, stats</text>
+
+  <!-- Theme -->
+  <rect x="240" y="196" width="200" height="52" rx="8" fill="#4D9FFF10" stroke="#4D9FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="256" y="214" fill="#4D9FFF" font-size="10" font-weight="700">THEME SYSTEM</text>
+  <text x="256" y="228" fill="#888" font-size="9">theme.js: COLORS, FONTS</text>
+  <text x="256" y="240" fill="#888" font-size="9">SPACING, RADIUS</text>
+
+  <!-- Animations -->
+  <rect x="456" y="196" width="220" height="52" rx="8" fill="#B44DFF10" stroke="#B44DFF" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="472" y="214" fill="#B44DFF" font-size="10" font-weight="700">ANIMATIONS</text>
+  <text x="472" y="228" fill="#888" font-size="9">Animated API (ring progress)</text>
+  <text x="472" y="240" fill="#888" font-size="9">Animated.loop (timer pulse)</text>
+
+  <!-- Expo SDK -->
+  <rect x="24" y="270" width="652" height="36" rx="8" fill="#FF4D4D08" stroke="#FF4D4D" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="40" y="286" fill="#FF4D4D" font-size="10" font-weight="700" letter-spacing="1">EXPO SDK 51  ·  React Native 0.74  ·  React 18</text>
+  <text x="480" y="286" fill="#555" font-size="9">iOS · Android · Web</text>
+  <text x="40" y="298" fill="#888" font-size="9">expo-linear-gradient · react-native-svg · @expo/vector-icons · safe-area-context</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#444"/>
+    </marker>
+  </defs>
+</svg>

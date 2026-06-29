@@ -1,0 +1,85 @@
+<svg width="320" height="620" viewBox="0 0 320 620" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="320" height="620" rx="32" fill="#0D0D0D"/>
+  <text x="24" y="22" fill="#F0F0F0" font-size="11" font-weight="600">9:41</text>
+  <text x="278" y="22" fill="#F0F0F0" font-size="10">●●●</text>
+  <text x="20" y="62" fill="#F0F0F0" font-size="22" font-weight="900">Прогресс</text>
+  <!-- Summary row -->
+  <rect x="16" y="72" width="88" height="56" rx="10" fill="#1A1A1A"/>
+  <text x="60" y="95" fill="#C8FF00" font-size="22" font-weight="900" text-anchor="middle">4</text>
+  <text x="60" y="116" fill="#888" font-size="9" text-anchor="middle">Дней активности</text>
+  <rect x="112" y="72" width="88" height="56" rx="10" fill="#1A1A1A"/>
+  <text x="156" y="95" fill="#FF8C4D" font-size="20" font-weight="900" text-anchor="middle">1210</text>
+  <text x="156" y="116" fill="#888" font-size="9" text-anchor="middle">Ккал за неделю</text>
+  <rect x="208" y="72" width="96" height="56" rx="10" fill="#1A1A1A"/>
+  <text x="256" y="95" fill="#4D9FFF" font-size="22" font-weight="900" text-anchor="middle">184</text>
+  <text x="256" y="116" fill="#888" font-size="9" text-anchor="middle">Минут</text>
+  <!-- Bar chart calories -->
+  <text x="20" y="150" fill="#F0F0F0" font-size="13" font-weight="700">Калории по дням</text>
+  <rect x="16" y="158" width="288" height="150" rx="12" fill="#1A1A1A"/>
+  <!-- bars -->
+  <g>
+    <!-- Пн -->
+    <rect x="38" y="215" width="24" height="70" rx="5" fill="#4D9FFF"/>
+    <text x="50" y="210" fill="#888" font-size="8" text-anchor="middle">320</text>
+    <text x="50" y="300" fill="#F0F0F0" font-size="9" text-anchor="middle">Пн</text>
+    <!-- Вт -->
+    <rect x="78" y="283" width="24" height="5" rx="2" fill="#444"/>
+    <text x="90" y="300" fill="#555" font-size="9" text-anchor="middle">Вт</text>
+    <!-- Ср -->
+    <rect x="118" y="220" width="24" height="65" rx="5" fill="#4D9FFF"/>
+    <text x="130" y="215" fill="#888" font-size="8" text-anchor="middle">280</text>
+    <text x="130" y="300" fill="#F0F0F0" font-size="9" text-anchor="middle">Ср</text>
+    <!-- Чт — max -->
+    <rect x="158" y="196" width="24" height="90" rx="5" fill="#C8FF00"/>
+    <text x="170" y="192" fill="#C8FF00" font-size="8" font-weight="700" text-anchor="middle">410</text>
+    <text x="170" y="300" fill="#F0F0F0" font-size="9" text-anchor="middle">Чт</text>
+    <!-- Пт -->
+    <rect x="198" y="248" width="24" height="38" rx="5" fill="#4D9FFF"/>
+    <text x="210" y="244" fill="#888" font-size="8" text-anchor="middle">180</text>
+    <text x="210" y="300" fill="#F0F0F0" font-size="9" text-anchor="middle">Пт</text>
+    <!-- Сб -->
+    <rect x="238" y="283" width="24" height="5" rx="2" fill="#444"/>
+    <text x="250" y="300" fill="#555" font-size="9" text-anchor="middle">Сб</text>
+    <!-- Вс -->
+    <rect x="278" y="283" width="24" height="5" rx="2" fill="#444"/>
+    <text x="290" y="300" fill="#555" font-size="9" text-anchor="middle">Вс</text>
+  </g>
+  <!-- All-time grid -->
+  <text x="20" y="328" fill="#F0F0F0" font-size="13" font-weight="700">Всё время</text>
+  <rect x="16" y="336" width="136" height="72" rx="12" fill="#1A1A1A"/>
+  <text x="84" y="356" font-size="22" text-anchor="middle">🏋️</text>
+  <text x="84" y="378" fill="#C8FF00" font-size="20" font-weight="900" text-anchor="middle">48</text>
+  <text x="84" y="394" fill="#888" font-size="9" text-anchor="middle">Тренировок</text>
+  <rect x="160" y="336" width="144" height="72" rx="12" fill="#1A1A1A"/>
+  <text x="232" y="356" font-size="22" text-anchor="middle">🔥</text>
+  <text x="232" y="378" fill="#FF8C4D" font-size="20" font-weight="900" text-anchor="middle">12.8к</text>
+  <text x="232" y="394" fill="#888" font-size="9" text-anchor="middle">Калорий</text>
+  <rect x="16" y="416" width="136" height="72" rx="12" fill="#1A1A1A"/>
+  <text x="84" y="436" font-size="22" text-anchor="middle">⏱</text>
+  <text x="84" y="458" fill="#4D9FFF" font-size="20" font-weight="900" text-anchor="middle">32</text>
+  <text x="84" y="474" fill="#888" font-size="9" text-anchor="middle">Часов</text>
+  <rect x="160" y="416" width="144" height="72" rx="12" fill="#1A1A1A"/>
+  <text x="232" y="436" font-size="22" text-anchor="middle">⚡</text>
+  <text x="232" y="458" fill="#B44DFF" font-size="20" font-weight="900" text-anchor="middle">12 дн.</text>
+  <text x="232" y="474" fill="#888" font-size="9" text-anchor="middle">Макс. серия</text>
+  <!-- Streak -->
+  <rect x="16" y="498" width="288" height="52" rx="12" fill="#1E1A00" stroke="#C8FF00" stroke-width="0.6" stroke-opacity="0.3"/>
+  <text x="28" y="518" fill="#C8FF00" font-size="13" font-weight="700">🔥 Текущая серия</text>
+  <text x="28" y="534" fill="#888" font-size="10">Продолжай — ты почти у цели!</text>
+  <text x="258" y="518" fill="#C8FF00" font-size="22" font-weight="900" text-anchor="middle">4</text>
+  <text x="268" y="518" fill="#555" font-size="18">/</text>
+  <text x="286" y="518" fill="#888" font-size="22" font-weight="900" text-anchor="middle">12</text>
+  <text x="258" y="534" fill="#888" font-size="8" text-anchor="middle">сейчас</text>
+  <text x="286" y="534" fill="#555" font-size="8" text-anchor="middle">рекорд</text>
+  <!-- Bottom nav -->
+  <rect x="0" y="556" width="320" height="64" fill="#111111"/>
+  <line x1="0" y1="556" x2="320" y2="556" stroke="#1E1E1E" stroke-width="1"/>
+  <text x="40" y="580" font-size="18" text-anchor="middle" opacity="0.35">🏠</text>
+  <text x="40" y="594" fill="#555" font-size="9" text-anchor="middle">Главная</text>
+  <text x="107" y="580" font-size="18" text-anchor="middle" opacity="0.35">💪</text>
+  <text x="107" y="594" fill="#555" font-size="9" text-anchor="middle">Тренировки</text>
+  <text x="213" y="580" font-size="18" text-anchor="middle">📊</text>
+  <text x="213" y="594" fill="#C8FF00" font-size="9" font-weight="700" text-anchor="middle">Прогресс</text>
+  <text x="280" y="580" font-size="18" text-anchor="middle" opacity="0.35">👤</text>
+  <text x="280" y="594" fill="#555" font-size="9" text-anchor="middle">Профиль</text>
+</svg>

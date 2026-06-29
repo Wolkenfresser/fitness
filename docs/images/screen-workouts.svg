@@ -1,0 +1,74 @@
+<svg width="320" height="620" viewBox="0 0 320 620" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="320" height="620" rx="32" fill="#0D0D0D"/>
+  <text x="24" y="22" fill="#F0F0F0" font-size="11" font-weight="600">9:41</text>
+  <text x="278" y="22" fill="#F0F0F0" font-size="10">●●●</text>
+  <text x="20" y="62" fill="#F0F0F0" font-size="22" font-weight="900">Тренировки</text>
+  <!-- Filter chips -->
+  <rect x="16" y="72" width="36" height="28" rx="14" fill="#C8FF0018" stroke="#C8FF00" stroke-width="1"/>
+  <text x="34" y="90" fill="#C8FF00" font-size="11" font-weight="700" text-anchor="middle">Все</text>
+  <rect x="57" y="72" width="60" height="28" rx="14" fill="#1A1A1A" stroke="#444" stroke-width="1"/>
+  <text x="87" y="90" fill="#888" font-size="11" text-anchor="middle">Кардио</text>
+  <rect x="122" y="72" width="44" height="28" rx="14" fill="#1A1A1A" stroke="#444" stroke-width="1"/>
+  <text x="144" y="90" fill="#888" font-size="11" text-anchor="middle">Сила</text>
+  <rect x="171" y="72" width="44" height="28" rx="14" fill="#1A1A1A" stroke="#444" stroke-width="1"/>
+  <text x="193" y="90" fill="#888" font-size="11" text-anchor="middle">HIIT</text>
+  <rect x="220" y="72" width="64" height="28" rx="14" fill="#1A1A1A" stroke="#444" stroke-width="1"/>
+  <text x="252" y="90" fill="#888" font-size="11" text-anchor="middle">Растяжка</text>
+  <text x="20" y="120" fill="#888" font-size="11">5 тренировок</text>
+  <!-- Card 1 -->
+  <rect x="16" y="130" width="288" height="76" rx="12" fill="#1A1A1A"/>
+  <rect x="28" y="142" width="50" height="50" rx="10" fill="#C8FF0018"/>
+  <text x="53" y="172" font-size="26" text-anchor="middle">⚡</text>
+  <text x="90" y="152" fill="#888" font-size="9" letter-spacing="0.8">КАРДИО</text>
+  <rect x="238" y="146" width="52" height="16" rx="8" fill="#C8FF0022"/>
+  <text x="264" y="157" fill="#C8FF00" font-size="9" font-weight="700" text-anchor="middle">Лёгкий</text>
+  <text x="90" y="170" fill="#F0F0F0" font-size="14" font-weight="700">Утренний заряд</text>
+  <text x="90" y="186" fill="#888" font-size="10">⏱ 20 мин · 🔥 180 ккал · 💪 4 упр.</text>
+  <!-- Card 2 -->
+  <rect x="16" y="214" width="288" height="76" rx="12" fill="#1A1A1A"/>
+  <rect x="28" y="226" width="50" height="50" rx="10" fill="#4D9FFF18"/>
+  <text x="53" y="256" font-size="26" text-anchor="middle">💪</text>
+  <text x="90" y="236" fill="#888" font-size="9" letter-spacing="0.8">СИЛА</text>
+  <rect x="228" y="230" width="62" height="16" rx="8" fill="#FF8C4D22"/>
+  <text x="259" y="241" fill="#FF8C4D" font-size="9" font-weight="700" text-anchor="middle">Средний</text>
+  <text x="90" y="254" fill="#F0F0F0" font-size="14" font-weight="700">Силовой сплит</text>
+  <text x="90" y="270" fill="#888" font-size="10">⏱ 45 мин · 🔥 340 ккал · 💪 5 упр.</text>
+  <!-- Card 3 -->
+  <rect x="16" y="298" width="288" height="76" rx="12" fill="#1A1A1A"/>
+  <rect x="28" y="310" width="50" height="50" rx="10" fill="#B44DFF18"/>
+  <text x="53" y="340" font-size="26" text-anchor="middle">🧘</text>
+  <text x="90" y="320" fill="#888" font-size="9" letter-spacing="0.8">РАСТЯЖКА</text>
+  <rect x="238" y="314" width="52" height="16" rx="8" fill="#C8FF0022"/>
+  <text x="264" y="325" fill="#C8FF00" font-size="9" font-weight="700" text-anchor="middle">Лёгкий</text>
+  <text x="90" y="338" fill="#F0F0F0" font-size="14" font-weight="700">Йога и гибкость</text>
+  <text x="90" y="354" fill="#888" font-size="10">⏱ 30 мин · 🔥 120 ккал · 💪 4 упр.</text>
+  <!-- Card 4 -->
+  <rect x="16" y="382" width="288" height="76" rx="12" fill="#1A1A1A"/>
+  <rect x="28" y="394" width="50" height="50" rx="10" fill="#FF4D4D18"/>
+  <text x="53" y="424" font-size="26" text-anchor="middle">🔥</text>
+  <text x="90" y="404" fill="#888" font-size="9" letter-spacing="0.8">HIIT</text>
+  <rect x="228" y="398" width="62" height="16" rx="8" fill="#FF4D4D22"/>
+  <text x="259" y="409" fill="#FF4D4D" font-size="9" font-weight="700" text-anchor="middle">Тяжёлый</text>
+  <text x="90" y="422" fill="#F0F0F0" font-size="14" font-weight="700">HIIT Интенсив</text>
+  <text x="90" y="438" fill="#888" font-size="10">⏱ 25 мин · 🔥 280 ккал · 💪 4 упр.</text>
+  <!-- Card 5 -->
+  <rect x="16" y="466" width="288" height="76" rx="12" fill="#1A1A1A"/>
+  <rect x="28" y="478" width="50" height="50" rx="10" fill="#FF8C4D18"/>
+  <text x="53" y="508" font-size="26" text-anchor="middle">🎯</text>
+  <text x="90" y="488" fill="#888" font-size="9" letter-spacing="0.8">СИЛА</text>
+  <rect x="228" y="482" width="62" height="16" rx="8" fill="#FF8C4D22"/>
+  <text x="259" y="493" fill="#FF8C4D" font-size="9" font-weight="700" text-anchor="middle">Средний</text>
+  <text x="90" y="506" fill="#F0F0F0" font-size="14" font-weight="700">Пресс и кор</text>
+  <text x="90" y="522" fill="#888" font-size="10">⏱ 20 мин · 🔥 150 ккал · 💪 5 упр.</text>
+  <!-- Bottom nav -->
+  <rect x="0" y="556" width="320" height="64" fill="#111111"/>
+  <line x1="0" y1="556" x2="320" y2="556" stroke="#1E1E1E" stroke-width="1"/>
+  <text x="40" y="580" font-size="18" text-anchor="middle" opacity="0.35">🏠</text>
+  <text x="40" y="594" fill="#555" font-size="9" text-anchor="middle">Главная</text>
+  <text x="107" y="580" font-size="18" text-anchor="middle">💪</text>
+  <text x="107" y="594" fill="#C8FF00" font-size="9" font-weight="700" text-anchor="middle">Тренировки</text>
+  <text x="213" y="580" font-size="18" text-anchor="middle" opacity="0.35">📊</text>
+  <text x="213" y="594" fill="#555" font-size="9" text-anchor="middle">Прогресс</text>
+  <text x="280" y="580" font-size="18" text-anchor="middle" opacity="0.35">👤</text>
+  <text x="280" y="594" fill="#555" font-size="9" text-anchor="middle">Профиль</text>
+</svg>

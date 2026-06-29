@@ -1,0 +1,96 @@
+<svg width="700" height="220" viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="700" height="220" rx="12" fill="#1A1A1A"/>
+  <text x="24" y="28" fill="#F0F0F0" font-size="13" font-weight="700">Тепловая карта (Punch Card)</text>
+  <text x="24" y="44" fill="#888" font-size="10">Распределение коммитов по дням и часам</text>
+  <!-- hour labels 0..23 -->
+  <text x="80" y="62" fill="#555" font-size="8" text-anchor="middle">0</text>
+  <text x="106" y="62" fill="#555" font-size="8" text-anchor="middle">2</text>
+  <text x="132" y="62" fill="#555" font-size="8" text-anchor="middle">4</text>
+  <text x="158" y="62" fill="#555" font-size="8" text-anchor="middle">6</text>
+  <text x="184" y="62" fill="#555" font-size="8" text-anchor="middle">8</text>
+  <text x="210" y="62" fill="#555" font-size="8" text-anchor="middle">10</text>
+  <text x="236" y="62" fill="#555" font-size="8" text-anchor="middle">12</text>
+  <text x="262" y="62" fill="#555" font-size="8" text-anchor="middle">14</text>
+  <text x="288" y="62" fill="#555" font-size="8" text-anchor="middle">16</text>
+  <text x="314" y="62" fill="#555" font-size="8" text-anchor="middle">18</text>
+  <text x="340" y="62" fill="#555" font-size="8" text-anchor="middle">20</text>
+  <text x="366" y="62" fill="#555" font-size="8" text-anchor="middle">22</text>
+  <!-- day labels -->
+  <text x="62" y="84" fill="#888" font-size="9" text-anchor="end">Пн</text>
+  <text x="62" y="106" fill="#888" font-size="9" text-anchor="end">Вт</text>
+  <text x="62" y="128" fill="#888" font-size="9" text-anchor="end">Ср</text>
+  <text x="62" y="150" fill="#888" font-size="9" text-anchor="end">Чт</text>
+  <text x="62" y="172" fill="#888" font-size="9" text-anchor="end">Пт</text>
+  <text x="62" y="194" fill="#888" font-size="9" text-anchor="end">Сб</text>
+  <text x="62" y="216" fill="#888" font-size="9" text-anchor="end">Вс</text>
+
+  <!-- Circles: cx = 80 + hour*13, cy = 80 + day*22, r proportional to commits 1-8 -->
+  <!-- Пн: low activity morning, peak 10-14, some evening -->
+  <circle cx="80" cy="80" r="1" fill="#C8FF00" opacity="0.15"/>
+  <circle cx="184" cy="80" r="4" fill="#C8FF00" opacity="0.5"/>
+  <circle cx="210" cy="80" r="7" fill="#C8FF00" opacity="0.85"/>
+  <circle cx="236" cy="80" r="8" fill="#C8FF00" opacity="1"/>
+  <circle cx="262" cy="80" r="6" fill="#C8FF00" opacity="0.75"/>
+  <circle cx="288" cy="80" r="5" fill="#C8FF00" opacity="0.65"/>
+  <circle cx="314" cy="80" r="4" fill="#C8FF00" opacity="0.5"/>
+  <circle cx="340" cy="80" r="3" fill="#C8FF00" opacity="0.35"/>
+
+  <!-- Вт -->
+  <circle cx="184" cy="102" r="3" fill="#C8FF00" opacity="0.4"/>
+  <circle cx="210" cy="102" r="6" fill="#C8FF00" opacity="0.75"/>
+  <circle cx="236" cy="102" r="7" fill="#C8FF00" opacity="0.9"/>
+  <circle cx="262" cy="102" r="5" fill="#C8FF00" opacity="0.65"/>
+  <circle cx="288" cy="102" r="4" fill="#C8FF00" opacity="0.5"/>
+  <circle cx="314" cy="102" r="6" fill="#C8FF00" opacity="0.75"/>
+  <circle cx="340" cy="102" r="5" fill="#C8FF00" opacity="0.6"/>
+
+  <!-- Ср -->
+  <circle cx="158" cy="124" r="2" fill="#C8FF00" opacity="0.25"/>
+  <circle cx="184" cy="124" r="5" fill="#C8FF00" opacity="0.65"/>
+  <circle cx="210" cy="124" r="8" fill="#C8FF00" opacity="1"/>
+  <circle cx="236" cy="124" r="8" fill="#C8FF00" opacity="1"/>
+  <circle cx="262" cy="124" r="6" fill="#C8FF00" opacity="0.75"/>
+  <circle cx="288" cy="124" r="3" fill="#C8FF00" opacity="0.4"/>
+  <circle cx="340" cy="124" r="7" fill="#C8FF00" opacity="0.85"/>
+  <circle cx="366" cy="124" r="4" fill="#C8FF00" opacity="0.5"/>
+
+  <!-- Чт — peak day -->
+  <circle cx="184" cy="146" r="6" fill="#C8FF00" opacity="0.75"/>
+  <circle cx="210" cy="146" r="8" fill="#C8FF00" opacity="1"/>
+  <circle cx="236" cy="146" r="8" fill="#C8FF00" opacity="1"/>
+  <circle cx="262" cy="146" r="8" fill="#C8FF00" opacity="1"/>
+  <circle cx="288" cy="146" r="7" fill="#C8FF00" opacity="0.85"/>
+  <circle cx="314" cy="146" r="5" fill="#C8FF00" opacity="0.65"/>
+  <circle cx="340" cy="146" r="6" fill="#C8FF00" opacity="0.75"/>
+
+  <!-- Пт -->
+  <circle cx="184" cy="168" r="4" fill="#C8FF00" opacity="0.5"/>
+  <circle cx="210" cy="168" r="6" fill="#C8FF00" opacity="0.75"/>
+  <circle cx="236" cy="168" r="5" fill="#C8FF00" opacity="0.65"/>
+  <circle cx="262" cy="168" r="4" fill="#C8FF00" opacity="0.5"/>
+  <circle cx="314" cy="168" r="7" fill="#C8FF00" opacity="0.85"/>
+  <circle cx="340" cy="168" r="8" fill="#C8FF00" opacity="1"/>
+  <circle cx="366" cy="168" r="5" fill="#C8FF00" opacity="0.65"/>
+
+  <!-- Сб — low -->
+  <circle cx="236" cy="190" r="2" fill="#C8FF00" opacity="0.3"/>
+  <circle cx="340" cy="190" r="4" fill="#C8FF00" opacity="0.5"/>
+  <circle cx="366" cy="190" r="3" fill="#C8FF00" opacity="0.4"/>
+
+  <!-- Вс — low -->
+  <circle cx="340" cy="212" r="3" fill="#C8FF00" opacity="0.35"/>
+  <circle cx="366" cy="212" r="5" fill="#C8FF00" opacity="0.6"/>
+
+  <!-- Legend -->
+  <text x="420" y="90" fill="#888" font-size="9">Меньше</text>
+  <circle cx="476" cy="87" r="2" fill="#C8FF00" opacity="0.2"/>
+  <circle cx="492" cy="87" r="3" fill="#C8FF00" opacity="0.4"/>
+  <circle cx="510" cy="87" r="5" fill="#C8FF00" opacity="0.65"/>
+  <circle cx="532" cy="87" r="7" fill="#C8FF00" opacity="0.85"/>
+  <circle cx="556" cy="87" r="8" fill="#C8FF00" opacity="1"/>
+  <text x="572" y="90" fill="#888" font-size="9">Больше</text>
+
+  <text x="420" y="115" fill="#555" font-size="9">⚡ Пик: Чт 10–16ч</text>
+  <text x="420" y="130" fill="#555" font-size="9">🌙 Активные вечера: Пт</text>
+  <text x="420" y="145" fill="#555" font-size="9">😴 Выходные: слабая активность</text>
+</svg>
